@@ -1,0 +1,11 @@
+/*
+* room_number_ros
+*/
+
+
+"Inputs" "Test inputs" {
+    sleep 1000
+    room_number_ros.room_number = 1
+    assert user "Le robot se déplace t'il?"
+}
+

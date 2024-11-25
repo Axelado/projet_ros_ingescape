@@ -1,0 +1,8 @@
+/*
+* room_number_ros
+*/
+
+"Tests" { 
+ask "Press the go to 1 button"
+assert go_to_room.room_number == "1"
+}

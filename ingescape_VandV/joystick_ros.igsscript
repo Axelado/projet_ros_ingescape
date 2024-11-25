@@ -1,0 +1,12 @@
+/*
+* joystick_ros
+*/
+
+
+"Inputs" "Test inputs" {
+    sleep 1000
+    joystick_ros.joystick_state = "{\"timestamp\": {\"sec\": 1732489110, \"nanosec\": 424898624}, \"axes\": [0.0, 0.0, -1.0, 0.0, 0.0, -1.0], \"buttons\": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \"hats\": [[0, 0]]}"
+    assert user "Le robot se déplace t'il?"
+
+}
+
